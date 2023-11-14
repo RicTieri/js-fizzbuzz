@@ -8,6 +8,7 @@ h1{
 }
 
 .wrapper{
+  min-width: 1200px;
   margin: 5rem;
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@ h1{
   font-weight: bold;
   margin: .5rem;
   padding: 2rem 0;
-  width: calc((100% / 6 ) - 1rem);
+  width: calc((100% / 5 ) - 1rem);
   text-align: center;
   background-color: rgb(52, 52, 52);
   border-radius: 20px;

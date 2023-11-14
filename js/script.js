@@ -9,15 +9,15 @@ for (let i = 1; i <= 100; i++) {
 
   if (i % 3 === 0) {
     headingCardElement.classList.add("green")
-    headingCardElement.innerHTML = 'fizz';
+    headingCardElement.innerHTML = 'Fizz';
   } 
   if (i % 5 === 0) {
     headingCardElement.classList.add("yellow")
-    headingCardElement.innerHTML = 'buzz';
+    headingCardElement.innerHTML = 'Buzz';
   } 
   if (i % 3 === 0 && i % 5 === 0){
     headingCardElement.classList.add("orange")
-    headingCardElement.innerHTML = 'fizzbuzz';
+    headingCardElement.innerHTML = 'FizzBuzz';
   }
 
   cardElement.appendChild(headingCardElement);
